@@ -1,0 +1,35 @@
+{
+  "name": "purescript-bouzuya-string-case",
+  "description": "`Bouzuya.String.Case` module",
+  "version": "0.0.0",
+  "author": {
+    "url": "https://bouzuya.net/",
+    "name": "bouzuya",
+    "email": "m@bouzuya.net"
+  },
+  "bugs": {
+    "url": "https://github.com/bouzuya/purescript-bouzuya-string-case/issues"
+  },
+  "devDependencies": {
+    "purescript": "^0.12.3",
+    "spago": "^0.7.0"
+  },
+  "homepage": "https://github.com/bouzuya/purescript-bouzuya-string-case#readme",
+  "keywords": [],
+  "license": "MIT",
+  "main": "index.js",
+  "private": true,
+  "repository": {
+    "url": "git+https://github.com/bouzuya/purescript-bouzuya-string-case.git",
+    "type": "git"
+  },
+  "scripts": {
+    "build": "spago build",
+    "docs": "spago sources | xargs purs docs --format html 'src/**/*.purs'",
+    "prepare": "npm run build",
+    "purs": "purs",
+    "repl": "spago repl",
+    "spago": "spago",
+    "test": "spago test"
+  }
+}
